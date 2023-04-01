@@ -6,6 +6,7 @@ pipeline{
     stage('version-control'){
       steps{
         sh 'free -g'
+        }
     }
     stage('parallel-job'){
       parallel{
